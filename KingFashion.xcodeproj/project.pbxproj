@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17124B0C1DB7576500F20ED6 /* Cascades in Resources */ = {isa = PBXBuildFile; fileRef = 17124B0B1DB7576500F20ED6 /* Cascades */; };
+		1737F7971DB8857D00F0B6A0 /* KFTryOnCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737F7961DB8857D00F0B6A0 /* KFTryOnCameraButton.m */; };
+		1737F79E1DB88A5100F0B6A0 /* KFSmartCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737F79D1DB88A5100F0B6A0 /* KFSmartCartTableViewController.m */; };
+		1737F7A11DB88B3700F0B6A0 /* KFSmartCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737F7A01DB88B3700F0B6A0 /* KFSmartCartTableViewCell.m */; };
+		1737F7A61DB88CD000F0B6A0 /* KFSmartCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737F7A51DB88CD000F0B6A0 /* KFSmartCartItem.m */; };
+		173DAF6C1DB7255E00190DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 173DAF6B1DB7255E00190DE7 /* main.m */; };
+		173DAF6F1DB7255E00190DE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173DAF6E1DB7255E00190DE7 /* AppDelegate.m */; };
+		173DAF751DB7255E00190DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173DAF731DB7255E00190DE7 /* Main.storyboard */; };
+		173DAF781DB7255E00190DE7 /* KingFashion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 173DAF761DB7255E00190DE7 /* KingFashion.xcdatamodeld */; };
+		173DAF7A1DB7255E00190DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173DAF791DB7255E00190DE7 /* Assets.xcassets */; };
+		173DAF7D1DB7255E00190DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173DAF7B1DB7255E00190DE7 /* LaunchScreen.storyboard */; };
+		173DAF881DB7255E00190DE7 /* KingFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173DAF871DB7255E00190DE7 /* KingFashionTests.m */; };
+		173DAF931DB7255E00190DE7 /* KingFashionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173DAF921DB7255E00190DE7 /* KingFashionUITests.m */; };
+		17503BA31DB9FB38000DAB29 /* KFSmartCartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17503BA21DB9FB38000DAB29 /* KFSmartCartManager.m */; };
+		17DCF1171DB72FDC00B3F086 /* KFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF1161DB72FDC00B3F086 /* KFButton.m */; };
+		17DCF11B1DB731AC00B3F086 /* KFPersonalitySurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF11A1DB731AC00B3F086 /* KFPersonalitySurveyViewController.m */; };
+		17DCF1201DB734A800B3F086 /* NSArray+FunctionalInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF11F1DB734A800B3F086 /* NSArray+FunctionalInterface.m */; };
+		17DCF1231DB7403700B3F086 /* KFPersonalityResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF1221DB7403700B3F086 /* KFPersonalityResultViewController.m */; };
+		17DCF1271DB74B2200B3F086 /* KFVirtualTryOnViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF1261DB74B2200B3F086 /* KFVirtualTryOnViewController.mm */; };
+		BB3725A4A2EB1F0DB4FC6874 /* libPods-KingFashionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978F17EC1B733DDF66FED19B /* libPods-KingFashionTests.a */; };
+		DD4C2791471CCFA18B262784 /* libPods-KingFashionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C57C343724B03E3EE72EED /* libPods-KingFashionUITests.a */; };
+		EB3D29FD8281F716287AC835 /* libPods-KingFashion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E73E07FA5C43810FF1B0EB31 /* libPods-KingFashion.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173DAF841DB7255E00190DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173DAF5F1DB7255D00190DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173DAF661DB7255D00190DE7;
+			remoteInfo = KingFashion;
+		};
+		173DAF8F1DB7255E00190DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173DAF5F1DB7255D00190DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173DAF661DB7255D00190DE7;
+			remoteInfo = KingFashion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FAB3A2428E42A24782EEB05 /* Pods-KingFashion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFashion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingFashion/Pods-KingFashion.debug.xcconfig"; sourceTree = "<group>"; };
+		17124B0B1DB7576500F20ED6 /* Cascades */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cascades; sourceTree = "<group>"; };
+		1737F7951DB8857D00F0B6A0 /* KFTryOnCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFTryOnCameraButton.h; sourceTree = "<group>"; };
+		1737F7961DB8857D00F0B6A0 /* KFTryOnCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFTryOnCameraButton.m; sourceTree = "<group>"; };
+		1737F79C1DB88A5100F0B6A0 /* KFSmartCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFSmartCartTableViewController.h; path = "KingFashion/Controllers/Smart Cart/KFSmartCartTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		1737F79D1DB88A5100F0B6A0 /* KFSmartCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFSmartCartTableViewController.m; path = "KingFashion/Controllers/Smart Cart/KFSmartCartTableViewController.m"; sourceTree = SOURCE_ROOT; };
+		1737F79F1DB88B3700F0B6A0 /* KFSmartCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFSmartCartTableViewCell.h; path = "KingFashion/Controllers/Smart Cart/KFSmartCartTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		1737F7A01DB88B3700F0B6A0 /* KFSmartCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFSmartCartTableViewCell.m; path = "KingFashion/Controllers/Smart Cart/KFSmartCartTableViewCell.m"; sourceTree = SOURCE_ROOT; };
+		1737F7A41DB88CD000F0B6A0 /* KFSmartCartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFSmartCartItem.h; sourceTree = "<group>"; };
+		1737F7A51DB88CD000F0B6A0 /* KFSmartCartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFSmartCartItem.m; sourceTree = "<group>"; };
+		173DAF671DB7255E00190DE7 /* KingFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		173DAF6B1DB7255E00190DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		173DAF6D1DB7255E00190DE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		173DAF6E1DB7255E00190DE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		173DAF741DB7255E00190DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		173DAF771DB7255E00190DE7 /* KingFashion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KingFashion.xcdatamodel; sourceTree = "<group>"; };
+		173DAF791DB7255E00190DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = KingFashion/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		173DAF7C1DB7255E00190DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173DAF7E1DB7255E00190DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173DAF831DB7255E00190DE7 /* KingFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173DAF871DB7255E00190DE7 /* KingFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingFashionTests.m; sourceTree = "<group>"; };
+		173DAF891DB7255E00190DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173DAF8E1DB7255E00190DE7 /* KingFashionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingFashionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173DAF921DB7255E00190DE7 /* KingFashionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingFashionUITests.m; sourceTree = "<group>"; };
+		173DAF941DB7255E00190DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17503BA11DB9FB38000DAB29 /* KFSmartCartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFSmartCartManager.h; sourceTree = "<group>"; };
+		17503BA21DB9FB38000DAB29 /* KFSmartCartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFSmartCartManager.m; sourceTree = "<group>"; };
+		17DCF1151DB72FDC00B3F086 /* KFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFButton.h; sourceTree = "<group>"; };
+		17DCF1161DB72FDC00B3F086 /* KFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFButton.m; sourceTree = "<group>"; };
+		17DCF1191DB731AC00B3F086 /* KFPersonalitySurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFPersonalitySurveyViewController.h; sourceTree = "<group>"; };
+		17DCF11A1DB731AC00B3F086 /* KFPersonalitySurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFPersonalitySurveyViewController.m; sourceTree = "<group>"; };
+		17DCF11E1DB734A800B3F086 /* NSArray+FunctionalInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FunctionalInterface.h"; sourceTree = "<group>"; };
+		17DCF11F1DB734A800B3F086 /* NSArray+FunctionalInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FunctionalInterface.m"; sourceTree = "<group>"; };
+		17DCF1211DB7403700B3F086 /* KFPersonalityResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFPersonalityResultViewController.h; sourceTree = "<group>"; };
+		17DCF1221DB7403700B3F086 /* KFPersonalityResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFPersonalityResultViewController.m; sourceTree = "<group>"; };
+		17DCF1251DB74B2200B3F086 /* KFVirtualTryOnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVirtualTryOnViewController.h; sourceTree = "<group>"; };
+		17DCF1261DB74B2200B3F086 /* KFVirtualTryOnViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KFVirtualTryOnViewController.mm; sourceTree = "<group>"; };
+		17DCF1281DB74B8500B3F086 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		32E303CE5DE74686054535A7 /* Pods-KingFashionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFashionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingFashionUITests/Pods-KingFashionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3847BBC3B80EAA4A95928EDE /* Pods-KingFashionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFashionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingFashionTests/Pods-KingFashionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66086602325FD8915FBCADFB /* Pods-KingFashion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFashion.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingFashion/Pods-KingFashion.release.xcconfig"; sourceTree = "<group>"; };
+		978F17EC1B733DDF66FED19B /* libPods-KingFashionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingFashionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C57C343724B03E3EE72EED /* libPods-KingFashionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingFashionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6440B57540CA84945C15ED9 /* Pods-KingFashionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFashionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingFashionTests/Pods-KingFashionTests.release.xcconfig"; sourceTree = "<group>"; };
+		E73E07FA5C43810FF1B0EB31 /* libPods-KingFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAEDE402DD76F9D75B2B6FD /* Pods-KingFashionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFashionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingFashionUITests/Pods-KingFashionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173DAF641DB7255D00190DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D29FD8281F716287AC835 /* libPods-KingFashion.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DAF801DB7255E00190DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3725A4A2EB1F0DB4FC6874 /* libPods-KingFashionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DAF8B1DB7255E00190DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4C2791471CCFA18B262784 /* libPods-KingFashionUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A8705BBD48851BA9AD0DC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB3A2428E42A24782EEB05 /* Pods-KingFashion.debug.xcconfig */,
+				66086602325FD8915FBCADFB /* Pods-KingFashion.release.xcconfig */,
+				3847BBC3B80EAA4A95928EDE /* Pods-KingFashionTests.debug.xcconfig */,
+				C6440B57540CA84945C15ED9 /* Pods-KingFashionTests.release.xcconfig */,
+				ECAEDE402DD76F9D75B2B6FD /* Pods-KingFashionUITests.debug.xcconfig */,
+				32E303CE5DE74686054535A7 /* Pods-KingFashionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1737F7941DB8855D00F0B6A0 /* Virtual Try-On */ = {
+			isa = PBXGroup;
+			children = (
+				1737F7951DB8857D00F0B6A0 /* KFTryOnCameraButton.h */,
+				1737F7961DB8857D00F0B6A0 /* KFTryOnCameraButton.m */,
+			);
+			path = "Virtual Try-On";
+			sourceTree = "<group>";
+		};
+		1737F7981DB8894A00F0B6A0 /* Smart Cart */ = {
+			isa = PBXGroup;
+			children = (
+				1737F79C1DB88A5100F0B6A0 /* KFSmartCartTableViewController.h */,
+				1737F79D1DB88A5100F0B6A0 /* KFSmartCartTableViewController.m */,
+				1737F79F1DB88B3700F0B6A0 /* KFSmartCartTableViewCell.h */,
+				1737F7A01DB88B3700F0B6A0 /* KFSmartCartTableViewCell.m */,
+			);
+			name = "Smart Cart";
+			path = "Smart Card";
+			sourceTree = "<group>";
+		};
+		1737F7A21DB88C5300F0B6A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1737F7A31DB88CB400F0B6A0 /* Smart Cart */,
+				173DAF761DB7255E00190DE7 /* KingFashion.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1737F7A31DB88CB400F0B6A0 /* Smart Cart */ = {
+			isa = PBXGroup;
+			children = (
+				1737F7A41DB88CD000F0B6A0 /* KFSmartCartItem.h */,
+				1737F7A51DB88CD000F0B6A0 /* KFSmartCartItem.m */,
+			);
+			path = "Smart Cart";
+			sourceTree = "<group>";
+		};
+		173DAF5E1DB7255D00190DE7 = {
+			isa = PBXGroup;
+			children = (
+				173DAF691DB7255E00190DE7 /* KingFashion */,
+				173DAF861DB7255E00190DE7 /* KingFashionTests */,
+				173DAF911DB7255E00190DE7 /* KingFashionUITests */,
+				173DAF681DB7255E00190DE7 /* Products */,
+				01A8705BBD48851BA9AD0DC0 /* Pods */,
+				BAB107302165DC432DD566E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		173DAF681DB7255E00190DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173DAF671DB7255E00190DE7 /* KingFashion.app */,
+				173DAF831DB7255E00190DE7 /* KingFashionTests.xctest */,
+				173DAF8E1DB7255E00190DE7 /* KingFashionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173DAF691DB7255E00190DE7 /* KingFashion */ = {
+			isa = PBXGroup;
+			children = (
+				17124B0B1DB7576500F20ED6 /* Cascades */,
+				17DCF11C1DB7346800B3F086 /* Utilities */,
+				1737F7A21DB88C5300F0B6A0 /* Models */,
+				173DAFA11DB7258B00190DE7 /* Controllers */,
+				173DAFA01DB7257300190DE7 /* Views */,
+				173DAF6A1DB7255E00190DE7 /* Supporting Files */,
+			);
+			path = KingFashion;
+			sourceTree = "<group>";
+		};
+		173DAF6A1DB7255E00190DE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				173DAF7E1DB7255E00190DE7 /* Info.plist */,
+				173DAF6D1DB7255E00190DE7 /* AppDelegate.h */,
+				173DAF6E1DB7255E00190DE7 /* AppDelegate.m */,
+				173DAF6B1DB7255E00190DE7 /* main.m */,
+				17DCF1281DB74B8500B3F086 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		173DAF861DB7255E00190DE7 /* KingFashionTests */ = {
+			isa = PBXGroup;
+			children = (
+				173DAF871DB7255E00190DE7 /* KingFashionTests.m */,
+				173DAF891DB7255E00190DE7 /* Info.plist */,
+			);
+			path = KingFashionTests;
+			sourceTree = "<group>";
+		};
+		173DAF911DB7255E00190DE7 /* KingFashionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				173DAF921DB7255E00190DE7 /* KingFashionUITests.m */,
+				173DAF941DB7255E00190DE7 /* Info.plist */,
+			);
+			path = KingFashionUITests;
+			sourceTree = "<group>";
+		};
+		173DAFA01DB7257300190DE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1737F7941DB8855D00F0B6A0 /* Virtual Try-On */,
+				173DAFA31DB72DA000190DE7 /* Components */,
+				173DAF791DB7255E00190DE7 /* Assets.xcassets */,
+				173DAF731DB7255E00190DE7 /* Main.storyboard */,
+				173DAF7B1DB7255E00190DE7 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		173DAFA11DB7258B00190DE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17503BA01DB9FB20000DAB29 /* Shared */,
+				1737F7981DB8894A00F0B6A0 /* Smart Cart */,
+				17DCF1241DB74B0500B3F086 /* Virtual Try-On */,
+				17DCF1181DB7317B00B3F086 /* Onboarding */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		173DAFA31DB72DA000190DE7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				17DCF1151DB72FDC00B3F086 /* KFButton.h */,
+				17DCF1161DB72FDC00B3F086 /* KFButton.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		17503BA01DB9FB20000DAB29 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				17503BA11DB9FB38000DAB29 /* KFSmartCartManager.h */,
+				17503BA21DB9FB38000DAB29 /* KFSmartCartManager.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		17DCF1181DB7317B00B3F086 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				17DCF1191DB731AC00B3F086 /* KFPersonalitySurveyViewController.h */,
+				17DCF11A1DB731AC00B3F086 /* KFPersonalitySurveyViewController.m */,
+				17DCF1211DB7403700B3F086 /* KFPersonalityResultViewController.h */,
+				17DCF1221DB7403700B3F086 /* KFPersonalityResultViewController.m */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		17DCF11C1DB7346800B3F086 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				17DCF11D1DB7347600B3F086 /* Categories */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		17DCF11D1DB7347600B3F086 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				17DCF11E1DB734A800B3F086 /* NSArray+FunctionalInterface.h */,
+				17DCF11F1DB734A800B3F086 /* NSArray+FunctionalInterface.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		17DCF1241DB74B0500B3F086 /* Virtual Try-On */ = {
+			isa = PBXGroup;
+			children = (
+				17DCF1251DB74B2200B3F086 /* KFVirtualTryOnViewController.h */,
+				17DCF1261DB74B2200B3F086 /* KFVirtualTryOnViewController.mm */,
+			);
+			path = "Virtual Try-On";
+			sourceTree = "<group>";
+		};
+		BAB107302165DC432DD566E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E73E07FA5C43810FF1B0EB31 /* libPods-KingFashion.a */,
+				978F17EC1B733DDF66FED19B /* libPods-KingFashionTests.a */,
+				A4C57C343724B03E3EE72EED /* libPods-KingFashionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173DAF661DB7255D00190DE7 /* KingFashion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173DAF971DB7255E00190DE7 /* Build configuration list for PBXNativeTarget "KingFashion" */;
+			buildPhases = (
+				EFEFE3C5B64282A4C226C918 /* [CP] Check Pods Manifest.lock */,
+				173DAF631DB7255D00190DE7 /* Sources */,
+				173DAF641DB7255D00190DE7 /* Frameworks */,
+				173DAF651DB7255D00190DE7 /* Resources */,
+				A6D885E85058F5415D4FCB5D /* [CP] Embed Pods Frameworks */,
+				50B6A45386ECD858CA66A3D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingFashion;
+			productName = KingFashion;
+			productReference = 173DAF671DB7255E00190DE7 /* KingFashion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173DAF821DB7255E00190DE7 /* KingFashionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173DAF9A1DB7255E00190DE7 /* Build configuration list for PBXNativeTarget "KingFashionTests" */;
+			buildPhases = (
+				E06443454E5360B45689371F /* [CP] Check Pods Manifest.lock */,
+				173DAF7F1DB7255E00190DE7 /* Sources */,
+				173DAF801DB7255E00190DE7 /* Frameworks */,
+				173DAF811DB7255E00190DE7 /* Resources */,
+				659AC7DB18750932707A23FD /* [CP] Embed Pods Frameworks */,
+				51D708DDE44D269951A756DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173DAF851DB7255E00190DE7 /* PBXTargetDependency */,
+			);
+			name = KingFashionTests;
+			productName = KingFashionTests;
+			productReference = 173DAF831DB7255E00190DE7 /* KingFashionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		173DAF8D1DB7255E00190DE7 /* KingFashionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173DAF9D1DB7255E00190DE7 /* Build configuration list for PBXNativeTarget "KingFashionUITests" */;
+			buildPhases = (
+				8F284B4E9A42D6E7E650648B /* [CP] Check Pods Manifest.lock */,
+				173DAF8A1DB7255E00190DE7 /* Sources */,
+				173DAF8B1DB7255E00190DE7 /* Frameworks */,
+				173DAF8C1DB7255E00190DE7 /* Resources */,
+				54A91A8F53CFB5CD86F63EF2 /* [CP] Embed Pods Frameworks */,
+				38F67E44A78CBFE59DF9744A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173DAF901DB7255E00190DE7 /* PBXTargetDependency */,
+			);
+			name = KingFashionUITests;
+			productName = KingFashionUITests;
+			productReference = 173DAF8E1DB7255E00190DE7 /* KingFashionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173DAF5F1DB7255D00190DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mai Anh Vu";
+				TargetAttributes = {
+					173DAF661DB7255D00190DE7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A98SVH33FM;
+						ProvisioningStyle = Automatic;
+					};
+					173DAF821DB7255E00190DE7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A98SVH33FM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 173DAF661DB7255D00190DE7;
+					};
+					173DAF8D1DB7255E00190DE7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A98SVH33FM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 173DAF661DB7255D00190DE7;
+					};
+				};
+			};
+			buildConfigurationList = 173DAF621DB7255D00190DE7 /* Build configuration list for PBXProject "KingFashion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173DAF5E1DB7255D00190DE7;
+			productRefGroup = 173DAF681DB7255E00190DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173DAF661DB7255D00190DE7 /* KingFashion */,
+				173DAF821DB7255E00190DE7 /* KingFashionTests */,
+				173DAF8D1DB7255E00190DE7 /* KingFashionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173DAF651DB7255D00190DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DAF7D1DB7255E00190DE7 /* LaunchScreen.storyboard in Resources */,
+				173DAF7A1DB7255E00190DE7 /* Assets.xcassets in Resources */,
+				173DAF751DB7255E00190DE7 /* Main.storyboard in Resources */,
+				17124B0C1DB7576500F20ED6 /* Cascades in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DAF811DB7255E00190DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DAF8C1DB7255E00190DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38F67E44A78CBFE59DF9744A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingFashionUITests/Pods-KingFashionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B6A45386ECD858CA66A3D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingFashion/Pods-KingFashion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D708DDE44D269951A756DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingFashionTests/Pods-KingFashionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A91A8F53CFB5CD86F63EF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingFashionUITests/Pods-KingFashionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		659AC7DB18750932707A23FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingFashionTests/Pods-KingFashionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F284B4E9A42D6E7E650648B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D885E85058F5415D4FCB5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingFashion/Pods-KingFashion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06443454E5360B45689371F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFEFE3C5B64282A4C226C918 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173DAF631DB7255D00190DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DAF781DB7255E00190DE7 /* KingFashion.xcdatamodeld in Sources */,
+				173DAF6F1DB7255E00190DE7 /* AppDelegate.m in Sources */,
+				17DCF11B1DB731AC00B3F086 /* KFPersonalitySurveyViewController.m in Sources */,
+				17DCF1201DB734A800B3F086 /* NSArray+FunctionalInterface.m in Sources */,
+				1737F7A11DB88B3700F0B6A0 /* KFSmartCartTableViewCell.m in Sources */,
+				1737F7971DB8857D00F0B6A0 /* KFTryOnCameraButton.m in Sources */,
+				17DCF1271DB74B2200B3F086 /* KFVirtualTryOnViewController.mm in Sources */,
+				17DCF1171DB72FDC00B3F086 /* KFButton.m in Sources */,
+				17DCF1231DB7403700B3F086 /* KFPersonalityResultViewController.m in Sources */,
+				1737F7A61DB88CD000F0B6A0 /* KFSmartCartItem.m in Sources */,
+				17503BA31DB9FB38000DAB29 /* KFSmartCartManager.m in Sources */,
+				1737F79E1DB88A5100F0B6A0 /* KFSmartCartTableViewController.m in Sources */,
+				173DAF6C1DB7255E00190DE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DAF7F1DB7255E00190DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DAF881DB7255E00190DE7 /* KingFashionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173DAF8A1DB7255E00190DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173DAF931DB7255E00190DE7 /* KingFashionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173DAF851DB7255E00190DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173DAF661DB7255D00190DE7 /* KingFashion */;
+			targetProxy = 173DAF841DB7255E00190DE7 /* PBXContainerItemProxy */;
+		};
+		173DAF901DB7255E00190DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173DAF661DB7255D00190DE7 /* KingFashion */;
+			targetProxy = 173DAF8F1DB7255E00190DE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		173DAF731DB7255E00190DE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173DAF741DB7255E00190DE7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		173DAF7B1DB7255E00190DE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173DAF7C1DB7255E00190DE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173DAF951DB7255E00190DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		173DAF961DB7255E00190DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173DAF981DB7255E00190DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAB3A2428E42A24782EEB05 /* Pods-KingFashion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A98SVH33FM;
+				INFOPLIST_FILE = KingFashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maianhvu.ios.KingFashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		173DAF991DB7255E00190DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66086602325FD8915FBCADFB /* Pods-KingFashion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A98SVH33FM;
+				INFOPLIST_FILE = KingFashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maianhvu.ios.KingFashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		173DAF9B1DB7255E00190DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3847BBC3B80EAA4A95928EDE /* Pods-KingFashionTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A98SVH33FM;
+				INFOPLIST_FILE = KingFashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maianhvu.ios.KingFashionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingFashion.app/KingFashion";
+			};
+			name = Debug;
+		};
+		173DAF9C1DB7255E00190DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6440B57540CA84945C15ED9 /* Pods-KingFashionTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A98SVH33FM;
+				INFOPLIST_FILE = KingFashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maianhvu.ios.KingFashionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingFashion.app/KingFashion";
+			};
+			name = Release;
+		};
+		173DAF9E1DB7255E00190DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAEDE402DD76F9D75B2B6FD /* Pods-KingFashionUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A98SVH33FM;
+				INFOPLIST_FILE = KingFashionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maianhvu.ios.KingFashionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KingFashion;
+			};
+			name = Debug;
+		};
+		173DAF9F1DB7255E00190DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E303CE5DE74686054535A7 /* Pods-KingFashionUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A98SVH33FM;
+				INFOPLIST_FILE = KingFashionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maianhvu.ios.KingFashionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KingFashion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173DAF621DB7255D00190DE7 /* Build configuration list for PBXProject "KingFashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DAF951DB7255E00190DE7 /* Debug */,
+				173DAF961DB7255E00190DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173DAF971DB7255E00190DE7 /* Build configuration list for PBXNativeTarget "KingFashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DAF981DB7255E00190DE7 /* Debug */,
+				173DAF991DB7255E00190DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173DAF9A1DB7255E00190DE7 /* Build configuration list for PBXNativeTarget "KingFashionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DAF9B1DB7255E00190DE7 /* Debug */,
+				173DAF9C1DB7255E00190DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173DAF9D1DB7255E00190DE7 /* Build configuration list for PBXNativeTarget "KingFashionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173DAF9E1DB7255E00190DE7 /* Debug */,
+				173DAF9F1DB7255E00190DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		173DAF761DB7255E00190DE7 /* KingFashion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				173DAF771DB7255E00190DE7 /* KingFashion.xcdatamodel */,
+			);
+			currentVersion = 173DAF771DB7255E00190DE7 /* KingFashion.xcdatamodel */;
+			name = KingFashion.xcdatamodeld;
+			path = ../KingFashion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 173DAF5F1DB7255D00190DE7 /* Project object */;
+}
